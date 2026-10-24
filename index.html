@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title>Bonheur Benel — Développeur Web Full-Stack</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <a href="#hero" class="logo">BB<span>.</span></a>
+      <button id="menu-toggle" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn-cta">Travaillons ensemble</a>
+      </nav>
+    </header>
+
+    <section id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Développeur Web Full-Stack</p>
+        <h1>Je conçois des expériences<br /><span>web</span> qui marquent.</h1>
+        <p class="hero-sub">
+          Bonjour, je suis <strong>Bonheur Benel</strong>. Je transforme des
+          idées en sites et applications modernes, rapides et élégants — du
+          design au déploiement.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn-ghost">Me contacter</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>5+</strong><span>ans d'expérience</span></div>
+          <div><strong>40+</strong><span>projets livrés</span></div>
+          <div><strong>100%</strong><span>clients satisfaits</span></div>
+        </div>
+      </div>
+      <a
+        href="#about"
+        class="scroll-indicator"
+        aria-label="Défiler vers le bas"
+      >
+        <span></span>
+      </a>
+    </section>
+
+    <section id="about">
+      <div class="section-header">
+        <span class="section-num">01</span>
+        <h2>À propos</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.pexels.com/photos/34803986/pexels-photo-34803986.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+            alt="Espace de travail d'un développeur web"
+            loading="lazy"
+          />
+        </div>
+        <div class="about-text">
+          <p class="about-lead">
+            Passionné par le web depuis plus de 5 ans, je crée des sites et des
+            applications qui combinent performance, accessibilité et esthétique.
+          </p>
+          <p>
+            Mon approche est simple : comprendre vos besoins, concevoir une
+            solution sur mesure, et la réaliser avec un code propre et
+            maintenable. Je travaille avec les technologies modernes — React,
+            TypeScript, Node.js, et bien d'autres — pour livrer des produits
+            fiables qui plaisent à vos utilisateurs.
+          </p>
+          <p>
+            Quand je ne code pas, j'aime explorer de nouveaux outils, contribuer
+            à des projets open-source et partager ma passion avec la communauté.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="section-header">
+        <span class="section-num">02</span>
+        <h2>Compétences</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">UI</div>
+          <h3>Front-End</h3>
+          <p>
+            Interfaces réactives et accessibles avec React, Vue et Tailwind CSS.
+          </p>
+          <ul class="skill-tags">
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Vite</li>
+            <li>Tailwind</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">BE</div>
+          <h3>Back-End</h3>
+          <p>
+            APIs robustes et bases de données optimisées avec Node.js et
+            PostgreSQL.
+          </p>
+          <ul class="skill-tags">
+            <li>Node.js</li>
+            <li>Express</li>
+            <li>PostgreSQL</li>
+            <li>Bolt Database</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">UX</div>
+          <h3>Design & UX</h3>
+          <p>Maquettes et prototypes qui guident l'utilisateur avec clarté.</p>
+          <ul class="skill-tags">
+            <li>Figma</li>
+            <li>Prototyping</li>
+            <li>Design System</li>
+          </ul>
+        </div>
+        <div class="skill-card" data-reveal>
+          <div class="skill-icon">OPS</div>
+          <h3>DevOps</h3>
+          <p>Déploiement continu, CI/CD et hébergement scalable.</p>
+          <ul class="skill-tags">
+            <li>Docker</li>
+            <li>GitHub Actions</li>
+            <li>Vercel</li>
+            <li>AWS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="section-header">
+        <span class="section-num">03</span>
+        <h2>Projets sélectionnés</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card" data-reveal>
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/12969403/pexels-photo-12969403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Tableau de bord d'analyse"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Application Web</span>
+            <h3>Dashboard Analytics</h3>
+            <p>
+              Une plateforme de visualisation de données en temps réel avec
+              graphiques interactifs et rapports automatisés.
+            </p>
+            <ul class="skill-tags">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/38639/mockup-psd-ipad-iphone-38639.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Application mobile responsive"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Site E-commerce</span>
+            <h3>Boutique Mode</h3>
+            <p>
+              Une boutique en ligne responsive avec panier, paiement Stripe et
+              gestion de stock en temps réel.
+            </p>
+            <ul class="skill-tags">
+              <li>Vue.js</li>
+              <li>Stripe</li>
+              <li>Bolt Database</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Développeur au travail"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Plateforme SaaS</span>
+            <h3>TaskFlow</h3>
+            <p>
+              Outil de gestion de projets collaboratif avec tableaux Kanban,
+              notifications et authentification complète.
+            </p>
+            <ul class="skill-tags">
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Node.js</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="project-card" data-reveal>
+          <div class="project-image">
+            <img
+              src="https://images.pexels.com/photos/139387/pexels-photo-139387.jpeg?auto=compress&cs=tinysrgb&h=650&w=940"
+              alt="Tableau de bord Google Analytics"
+              loading="lazy"
+            />
+          </div>
+          <div class="project-body">
+            <span class="project-cat">Landing Page</span>
+            <h3>Startup Launch</h3>
+            <p>
+              Page d'atterrissage haute conversion avec animations, formulaire
+              d'inscription et SEO optimisé.
+            </p>
+            <ul class="skill-tags">
+              <li>HTML/CSS</li>
+              <li>Vite</li>
+              <li>SEO</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-inner">
+        <div class="contact-info">
+          <div class="section-header light">
+            <span class="section-num">04</span>
+            <h2>Travaillons ensemble</h2>
+          </div>
+          <p>
+            Vous avez un projet en tête ? Une idée à concrétiser ? Je suis
+            disponible pour de nouvelles collaborations. Parlez-moi de votre
+            vision et je vous réponds sous 48 heures.
+          </p>
+          <ul class="contact-list">
+            <li><strong>Email</strong> bonheur.benel@example.com</li>
+            <li><strong>Téléphone</strong> +33 6 12 34 56 78</li>
+            <li><strong>Lieu</strong> Lyon, France</li>
+          </ul>
+          <div class="social-links">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Nom complet</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Votre nom"
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              placeholder="vous@exemple.com"
+            />
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              required
+              placeholder="L'objet de votre message"
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              required
+              placeholder="Décrivez votre projet..."
+            ></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Envoyer le message</button>
+          <p id="form-feedback" class="form-feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-inner">
+        <a href="#hero" class="logo light">BB<span>.</span></a>
+        <p>&copy; 2026 Bonheur Benel. Tous droits réservés.</p>
+        <a href="#hero" class="back-top" aria-label="Retour en haut">↑</a>
+      </div>
+    </footer>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/" aria-current="page">Home</a>
+      <a href="/page2.html">Other page</a>
+    </nav>
+    <main>
+      <h1>Home page</h1>
+    </main>
+  </body>
+</html>
